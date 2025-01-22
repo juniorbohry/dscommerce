@@ -11,7 +11,7 @@ public class ProductDTO {
     private String imgUrl;
 
     public ProductDTO() {
-
+        // Construtor padrão
     }
 
     public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
